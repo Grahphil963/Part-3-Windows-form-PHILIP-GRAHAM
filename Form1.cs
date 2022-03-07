@@ -16,5 +16,12 @@ namespace Part_3_Windows_form_PHILIP_GRAHAM
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            string name = txtInput.Text;
+            lblMessage.Text = "Greetings" + name;
+
+        }
     }
 }
